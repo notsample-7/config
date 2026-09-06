@@ -7,8 +7,8 @@
     settings = {
       core.editor = "emacsclient";
       user = {
-        name = "sample-7";
-        email = "224307167+sample279@users.noreply.github.com";
+        name = "notsample-7";
+        email = "224307167+notsample-7@users.noreply.github.com";
       };
       init.defaultBranch = "main";
     };
@@ -21,14 +21,14 @@
 
   home.file.".config/git/email-github".text = ''
     [user]
-      name = sample-7
-      email = 224307167+sample279@users.noreply.github.com
+      name = notsample-7
+      email = 224307167+notsample-7@users.noreply.github.com
   '';
 
   home.file.".config/git/email-codeberg".text = ''
     [user]
-      name = sample-7
-      email = sample7@noreply.codeberg.org
+      name = notsample-7
+      email = notsample-7@noreply.codeberg.org
   '';
 
   # Lazygit configuration (optional)
