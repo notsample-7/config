@@ -88,6 +88,10 @@
 (add-to-list 'auto-mode-alist '("\\.kdl\\'" . kdl-mode))
 (add-hook 'markdown-mode-hook #'grip-mode)
 
+;; Open grip previews in the browser, not the embedded webview
+(after! grip-mode
+  (setq grip-preview-in-webkit nil))
+
 (after! treesit
   (add-to-list 'treesit-language-source-alist
                '(kdl . ("https://github.com/tree-sitter-grammars/tree-sitter-kdl"))))
@@ -104,3 +108,7 @@
   (key-chord-mode 1)
   (key-chord-define evil-insert-state-map "jk" #'evil-normal-state)
   (key-chord-define evil-replace-state-map "jk" #'evil-normal-state))
+
+(with-eval-after-load 'ghostel
+  (set-face-attribute 'ghostel-color-blue nil
+                      :foreground "#7aa2f7"))
