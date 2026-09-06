@@ -78,19 +78,6 @@ in
     };
   };
 
-  xdg.desktopEntries.github = {
-    name = "GitHub";
-    comment = "Build software together";
-    exec = "chromium --profile-directory=Default --app=https://github.com";
-    icon = "github";
-    terminal = false;
-    categories = [ "Network" "Development" ];
-    startupNotify = true;
-    settings = {
-      StartupWMClass = "chrome-github.com__-Default";
-    };
-  };
-
   xdg.desktopEntries.whatsapp = {
     name = "WhatsApp";
     comment = "Send and receive messages";
