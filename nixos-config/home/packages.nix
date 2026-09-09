@@ -39,13 +39,11 @@
     ispell
     jq
     krita
-    lazygit
     lazydocker
     localsend
     lutris
     man
     mpv
-    mpvpaper
     nautilus
     opencode
     proton-vpn

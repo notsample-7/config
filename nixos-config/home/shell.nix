@@ -18,8 +18,6 @@
 
       # Files & navigation
       cfg = "cd ~/config";
-      gh = "cd ~/Projects/github";
-      cb = "cd ~/Projects/codeberg";
       stowall = "cd ~/config/dotfiles && stow -t ~ * && cd -";
       ls = "eza -lh --group-directories-first --icons=auto";
       dust = "dust -s -r -x";
