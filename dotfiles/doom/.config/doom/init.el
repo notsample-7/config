@@ -33,7 +33,7 @@
        doom              ; what makes DOOM look the way it does
        dashboard         ; a nifty splash screen for Emacs
        ;;doom-quit         ; DOOM quit-message prompts when you quit Emacs
-       ;; (emoji +unicode)  ; 🙂
+        ;;(emoji +unicode)  ; 🙂
        hl-todo           ; highlight TODO/FIXME/NOTE/DEPRECATED/HACK/REVIEW
        indent-guides     ; highlighted indent columns
        ;;ligatures         ; ligatures and symbols to make your code pretty again
@@ -57,7 +57,7 @@
        (evil +everywhere); come to the dark side, we have cookies
        file-templates    ; auto-snippets for empty files
        fold              ; (nigh) universal code folding
-       (format +onsave)  ; automated prettiness
+        ;;(format +onsave)  ; automated prettiness
        ;;god               ; run Emacs commands without modifier keys
        ;;lispy             ; vim for lisp, for people who don't like vim
        multiple-cursors  ; editing in many places at once
@@ -71,17 +71,17 @@
        :emacs
        dired             ; making dired pretty [functional]
        electric          ; smarter, keyword-based electric-indent
-       ;; eww               ; the internet is gross
+        ;;eww               ; the internet is gross
        ibuffer           ; interactive buffer management
        tramp             ; remote files at your arthritic fingertips
        undo              ; persistent, smarter undo for your inevitable mistakes
        vc                ; version-control and Emacs, sitting in a tree
 
        :term
-       ;; eshell            ; the elisp shell that works everywhere
+        ;;eshell            ; the elisp shell that works everywhere
        ;;shell             ; simple shell REPL for Emacs
        ;;term              ; basic terminal emulator for Emacs
-       ;; vterm             ; almost the best terminal emulation in Emacs
+        ;;vterm             ; almost the best terminal emulation in Emacs
        ghostel           ; the best terminal emulation in Emacs
 
        :checkers
@@ -144,7 +144,7 @@
        ;;(haskell +lsp)    ; a language that's lazier than I am
        ;;hy                ; readability of scheme w/ speed of python
        ;;idris             ; a language you can depend on
-       ;; json              ; At least it ain't XML
+        ;;json              ; At least it ain't XML
        ;;janet             ; Fun fact: Janet is me!
        ;;java              ; the poster child for carpal tunnel syndrome
        javascript        ; all(hope(abandon(ye(who(enter(here))))))
@@ -165,7 +165,7 @@
        ;;graphviz          ; diagrams for confusing yourself even more
        ;;purescript        ; javascript, but functional
        ;;python            ; beautiful is better than ugly
-                                        ;qt                ; the 'cutest' gui framework ever
+       ;;qt                ; the 'cutest' gui framework ever
        ;;racket            ; a DSL for DSLs
        ;;raku              ; the artist formerly known as perl6
        rest              ; Emacs as a REST client
@@ -181,7 +181,7 @@
        ;;swift             ; who asked for emoji variables?
        ;;terra             ; Earth and Moon in alignment for performance.
        web               ; the tubes
-       ;; yaml              ; JSON, but readable
+       ;;yaml              ; JSON, but readable
        ;;zig               ; C, but simpler
 
        :email
@@ -191,11 +191,11 @@
 
        :app
        ;;calendar
-       ;; emms
+       ;;emms
        ;;everywhere        ; *leave* Emacs!? You must be joking
        ;;irc               ; how neckbeards socialize
-       ;; (rss +org)        ; emacs as an RSS reader
+       ;;(rss +org)        ; emacs as an RSS reader
 
        :config
-       ;; literate
+        ;;literate
        (default +bindings +smartparens))

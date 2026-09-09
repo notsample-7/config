@@ -28,7 +28,7 @@
     go
     gopls
     (go-migrate.overrideAttrs (old: {
-        tags = [ "postgres" ];
+      tags = [ "postgres" ];
     }))
     gpu-screen-recorder
     go-grip
