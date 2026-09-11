@@ -1,6 +1,6 @@
 binds {
-    Print { screenshot; }
-    Ctrl+Print { screenshot-screen; }
+    Print hotkey-overlay-title="Noctalia-screenshot: region" { spawn-sh "noctalia msg screenshot-region"; }
+    Ctrl+Print hotkey-overlay-title="Noctalia-screenshot: fullscreen" { spawn-sh "noctalia msg screenshot-fullscreen"; }
     Alt+Print { screenshot-window; }
 
     Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
