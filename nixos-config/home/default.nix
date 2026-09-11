@@ -13,6 +13,7 @@
     ./direnv.nix
     ./freesmlauncher.nix
     ./chromium.nix
+    ./ghostty.nix
   ];
 
   home = {
