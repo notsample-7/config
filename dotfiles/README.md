@@ -9,7 +9,6 @@ Application configs managed with [GNU Stow](https://www.gnu.org/software/stow/).
 | `bat` | `~/.config/bat/` (theme, config) |
 | `btop` | `~/.config/btop/` (themes) |
 | `cava` | `~/.config/cava/` (visualizer config, shaders, themes) |
-| `custom-newtab` | `~/.config/custom-newtab/` (chromium new-tab extension) |
 | `doom` | `~/.config/doom/` (Emacs/Doom user config + noctalia theme) |
 | `fastfetch` | `~/.config/fastfetch/` (config, noctalia theme) |
 | `htop` | `~/.config/htop/htoprc` |
