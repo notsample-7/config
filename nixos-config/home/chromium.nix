@@ -28,7 +28,6 @@ in
       (fetchCrx { id = "edibdbjcniadpccecjdfdjjppcpchdlm"; sha256 = "sha256-RrbNwwND3Sl8bTTZF5xeHMHuQEyOY7FU3vFY4TAQw30="; version = "1.1.9"; }) # I still don't care about cookies
       (fetchCrx { id = "chklaanhfefbnpoihckbnefhakgolnmc"; sha256 = "sha256-NHvHQsvPRtT/B1vGQNE2TUZOTbPCvg2z+8sbllAEJcg="; version = "0.2.3"; }) # JSONVue
       (fetchCrx { id = "mmioliijnhnoblpgimnlajmefafdfilb"; sha256 = "sha256-eLB9vM9jqyY+EMP1h8654m/6CJiRN0XymHF2Hcu6V1Y="; version = "2.5.0"; }) # Shazam
-      (fetchCrx { id = "icpgjfneehieebagbmdbhnlpiopdcmna"; sha256 = "sha256-ZphGiFw16UgGyTBP3rLOqz4sTtbKDtYS75gtr6XxEfY="; version = "3.1.6"; }) # New Tab Redirect
       (fetchCrx { id = "pkehgijcmpdhfbdbbnkijodmdjhbjlgp"; sha256 = "sha256-r7/6OKSQ1D/45WoTsKS0+95ch7BtU9kImNnn4vzQj0A="; version = "2026.6.16"; }) # Privacy Badger
       (fetchCrx { id = "nomnklagbgmgghhjidfhnoelnjfndfpd"; sha256 = "sha256-wrZaHUvdTNJP78mc6hrHOLjk+JEWtDGHmwaICAGJ0KE="; version = "0.2.4"; }) # Canvas Blocker - Fingerprint Protect
       (fetchCrx { id = "lckanjgmijmafbedllaakclkaicjfmnk"; sha256 = "sha256-rMFzGyrQCJ85p93PDHIy7TU329AZuOjBvuzoeO1Yoxo="; version = "1.26.0"; }) # ClearURLs
