@@ -8,6 +8,7 @@ dotfiles/doom/.config/doom/themes/noctalia-theme.el
 dotfiles/ghostty/.config/ghostty/themes/noctalia
 dotfiles/fastfetch/.config/fastfetch/themes/noctalia.jsonc
 dotfiles/kitty/.config/kitty/themes/noctalia.conf
+dotfiles/lazygit/.config/lazygit/config.yml
 dotfiles/lazygit/.config/lazygit/themes/noctalia.yml
 dotfiles/niri/.config/niri/noctalia.kdl
 dotfiles/noctalia/.config/noctalia/Obsidian/obsidian.css
