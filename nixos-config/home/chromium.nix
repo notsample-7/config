@@ -19,7 +19,7 @@ in
       "--ozone-platform=wayland"
       "--enable-features=UseOzonePlatform,WaylandWindowDecorations"
       "--gtk-version=4"
-      "--load-extension=$HOME/.cache/noctalia/ungoogled-chromium/theme"
+      "--load-extension=$HOME/.cache/noctalia/ungoogled-chromium/theme,$HOME/.config/custom-newtab"
     ];
 
     extensions = [

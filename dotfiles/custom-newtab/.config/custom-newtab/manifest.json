@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Homepage New Tab",
+  "version": "1.0.0",
+  "description": "Opens the bookmarks homepage as the new tab page.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}
