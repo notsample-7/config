@@ -43,6 +43,7 @@
     localsend
     lutris
     man
+    microfetch
     mpv
     nautilus
     opencode
