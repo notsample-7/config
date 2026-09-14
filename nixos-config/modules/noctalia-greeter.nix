@@ -5,13 +5,10 @@
     inputs.noctalia-greeter.nixosModules.default
   ];
 
-  programs.noctalia-greeter = {
+  services.displayManager.noctalia-greeter = {
     enable = true;
 
     passwordless-sync-users = [ "sample" ];
-
-    # Optional
-    greeter-args = "";
 
     settings = {
       cursor = {
