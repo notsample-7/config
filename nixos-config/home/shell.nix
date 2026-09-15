@@ -5,6 +5,7 @@
     enable = true;
     enableCompletion = true;
     bashrcExtra = ''
+      export PATH=/home/sample/.opencode/bin:$PATH
       eval "$(direnv hook bash)"
     '';
 

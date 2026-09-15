@@ -46,7 +46,6 @@
     microfetch
     mpv
     nautilus
-    opencode
     proton-vpn
     protonplus
     ripgrep
